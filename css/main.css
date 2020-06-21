@@ -1,0 +1,50 @@
+body {
+  font-family: Palatino;
+  background-color: limegreen;
+  /* background-image: url('/images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+#form-wrapper {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item {
+  margin-right: 1.8rem;
+}
+
+
+.red {
+  font-weight: 900;
+  color: red;
+}
+
+label.primary {
+  display: block;
+  margin: 0.4em 0;
+}
+
+label::after {
+  content: ":";
+}
+
+button, input[type="submit"] {
+  margin-top: 1rem;
+}
+
+#footballers {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: square;
+}
+
+.footballerListItem {
+  margin: 10rem 10rem;
+  padding: 1rem 1rem;
+  border: 1px solid #20437c;
+  border-radius: 5%;
+  background: #ddeaff;
+}
